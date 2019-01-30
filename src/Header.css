@@ -1,0 +1,39 @@
+header{
+    background: #F2F2F2;
+    padding:20px 10px;
+   
+    width: 100%;
+     
+}
+.container{
+    margin-top: 100px;
+}
+.logo{
+    color:red;
+    display:inline-block;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 25px;
+}
+
+.top-nav{
+    float: right;   
+}
+.top-nav a{
+    margin:10px 20px;
+    text-decoration: none;
+    color:black;
+}
+.top-nav a:hover{
+    color:#F28934;
+}
+.top-nav input{
+    transition: width .3s;
+    width:10px;
+}
+.top-nav input:hover{
+    width:100px;
+}
+.top-nav input:focus {
+  border:1px solid red;
+  
+}

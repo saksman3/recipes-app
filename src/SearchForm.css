@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.form-container
+{
+    
+    width:100%;
+    padding-top:40px;
+    margin-bottom: 30px;
+    
+}
+.search-form{
+  
+   /* border:1px solid green; */
+   margin: 0 auto;
+   text-align: center;
+   width:75%;
+   
+}
+.search-form input[type=text]{
+ 
+   height:25px; 
+   border-radius:2px;
+   padding:0 5px;
+   width:40%;
+   /* border:1px solid red; */
+   transition: border .3s ease-in-out;
+   margin-right:5px;
+}
+.search-form input[type=text]:hover{  
+    
+    border: 2px solid #0CD2E8;
+   
+ }
+.search-form button{
+    height: 30px;
+   /*  background: #7BF238; */
+    border:none;
+}
+.search-form button:hover{
+    height: 40px; 
+}

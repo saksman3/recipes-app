@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Miss+Fajardose|Pinyon+Script|Sedgwick+Ave');
+*{
+    margin:0;
+    padding:0;
+}
+.recipes{
+    width:90%;
+    margin: auto;
+    text-align: center;
+
+}
+.recipes .recipeBox {
+margin:10px;
+width:30%;
+height:200px;
+background: black;
+display: inline-block;
+text-align: left;
+background-size:100%;
+overflow: hidden;
+border-radius: 5px;
+}
+.hoverBox{
+    text-align:center;
+    background: rgb(17, 17, 17);
+    height:100%;
+    opacity: .8;
+    position: relative;
+    position: 100%;
+    transition:all .5s;
+    bottom:-100%;
+    padding: 50px 25px;
+}
+.hoverBox h4{
+    font-size:25px;
+    color:white;
+    font-weight: bold;
+    font-family: 'Sedgwick Ave', cursive;
+}
+.hoverBox p{
+    color:red;
+
+}
+.recipes .recipeBox:hover .hoverBox
+{
+    bottom:0%;
+    cursor: zoom-in;
+}
