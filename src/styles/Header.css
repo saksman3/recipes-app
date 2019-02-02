@@ -1,13 +1,11 @@
-header{
-    background: #F2F2F2;
-    padding:20px 10px;
-   
+.page-header{
+    /* background: #F2F2F2; */
+    padding:10px 10px;
+    border-bottom: 1px solid grey;
     width: 100%;
      
 }
-.container{
-    margin-top: 100px;
-}
+
 .logo{
     color:red;
     display:inline-block;
@@ -26,14 +24,20 @@ header{
 .top-nav a:hover{
     color:#F28934;
 }
-.top-nav input{
-    transition: width .3s;
-    width:10px;
-}
 .top-nav input:hover{
     width:100px;
 }
 .top-nav input:focus {
   border:1px solid red;
   
+}
+@media(max-width:576px)  {
+    .top-nav{
+        float: none;   
+    }
+    .top-nav a{
+        margin:10px 5px;
+        text-decoration: none;
+        color:black;
+    }
 }

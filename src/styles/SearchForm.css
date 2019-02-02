@@ -1,17 +1,13 @@
-body{
-    margin:0;
-    padding: 0;
-}
+
 .form-container
 {
-    
     width:100%;
     padding-top:40px;
-    margin-bottom: 30px;
-    
+   
+    background-size: cover;
+    opacity: 0.7;
 }
 .search-form{
-  
    /* border:1px solid green; */
    margin: 0 auto;
    text-align: center;
@@ -19,14 +15,17 @@ body{
    
 }
 .search-form input[type=text]{
- 
-   height:25px; 
+   height:100%; 
    border-radius:2px;
-   padding:0 5px;
-   width:40%;
+  
+   width:50%;
+   font-size: 30px;
    /* border:1px solid red; */
    transition: border .3s ease-in-out;
    margin-right:5px;
+   display: inline-block;
+   padding: 1px 2px;
+   
 }
 .search-form input[type=text]:hover{  
     
@@ -34,10 +33,15 @@ body{
    
  }
 .search-form button{
-    height: 30px;
-   /*  background: #7BF238; */
+    height: 100%;
+    width:30px;
     border:none;
+   display: inline-block;
+   font-size: 30px;
+   padding-bottom: 2px;
+   background: none;
+   
 }
 .search-form button:hover{
-    height: 40px; 
+    color:red;
 }
